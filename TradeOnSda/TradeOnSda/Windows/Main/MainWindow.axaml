@@ -14,11 +14,12 @@
         x:Class="TradeOnSda.Windows.Main.MainWindow"
         Background="Transparent"
         Title="MainWindow"
-        ExtendClientAreaToDecorationsHint="True">
+        ExtendClientAreaToDecorationsHint="True"
+        UseLayoutRounding="True">
     <controls:Design.DataContext>
         <main1:MainWindowViewModel />
     </controls:Design.DataContext>
-    
+
     <Window.Styles>
         <Style Selector="Grid.MacHeader">
             <Setter Property="HorizontalAlignment" Value="Center" />
