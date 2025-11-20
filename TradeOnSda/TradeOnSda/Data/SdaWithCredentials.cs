@@ -61,7 +61,9 @@ public class SdaWithCredentials
         {
             var confirmations = (await SteamGuardAccount.FetchConfirmationAsync())
                 .Where(t => t.ConfirmationType is ConfirmationType.MarketSellTransaction
-                    or ConfirmationType.Trade).ToArray();
+                    or ConfirmationType.Trade
+                    or ConfirmationType.MarketBuyTransaction
+                ).ToArray();
 
             if (confirmations.Length == 0)
             {
