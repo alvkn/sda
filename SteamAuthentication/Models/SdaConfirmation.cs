@@ -58,4 +58,5 @@ public enum ConfirmationType
     UnknownConfirmation4,
     Recovery,
     WebKey = 9,
+	MarketBuyTransaction = 12
 }
