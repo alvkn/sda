@@ -24,7 +24,7 @@
         <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.3.9" />
         <PackageReference Include="Avalonia.Xaml.Behaviors" Version="11.3.0.6" />
         <PackageReference Include="DynamicData" Version="9.4.1" />
-        <PackageReference Include="Humanizer" Version="3.0.1" />
+        <PackageReference Include="Humanizer.Core" Version="3.0.1" />
         <PackageReference Include="JetBrains.Annotations" Version="2025.2.2" />
         <PackageReference Include="Nito.AsyncEx" Version="5.1.2" />
     </ItemGroup>
